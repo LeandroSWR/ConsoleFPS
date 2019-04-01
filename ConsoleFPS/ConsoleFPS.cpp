@@ -215,7 +215,7 @@ int main()
 		}
 
 		// Display stats
-		swprintf_s(screen, 40, L"X=%3.2f, Y=%3.2f, A=%3.2f, FPS=%3.2f ", fPlayerX, fPlayerY, fPlayerA, (1.0f / fElapsedTime));
+		swprintf_s(screen, 50, L"X=%3.2f, Y=%3.2f, A=%3.2f, FPS=%3.2f ", fPlayerX, fPlayerY, fPlayerA, (1.0f / fElapsedTime));
 
 		// Display minimap
 		for (int nx = 0; nx < nMapWidth; nx++) {
